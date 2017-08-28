@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Ejemplo3"
+             x:Class="Ejemplo3.MainPage"
+             BackgroundColor="#EBEEF0">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                
+                <StackLayout BackgroundColor="#FF9800" Padding="20">
+                    <Image Source="gorilla_player.png" WidthRequest="150" HeightRequest="150"></Image>
+                    <Label Text="Ejercicio 3" TextColor="#fff" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontSize="Large"></Label>
+                    <Label Text="Manejo de interfaz gráfica" TextColor="#fff" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontSize="Small"></Label>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="#EBEEF0" Padding="20" >
+                    <Label Text="Usuario:" FontSize="Medium" TextColor="#354E61"></Label>
+                    <Entry x:Name="entryUsuario"></Entry>
+                    <Label Text="Contraseña:" FontSize="Medium" TextColor="#354E61"></Label>
+                    <Entry x:Name="entryContraseña" IsPassword="True"></Entry>
+                    <Button x:Name="buttonLogin" Text="Entrar" BackgroundColor="#CD3503" TextColor="#fff"></Button>
+                </StackLayout>
+
+                <StackLayout Padding="20" BackgroundColor="#FEFEFE">
+                    <Button x:Name="buttonRecuperarContraseña" Text="Recuperar contraseña" BackgroundColor="#5295C4" TextColor="#fff"></Button>
+                    <Button x:Name="buttonSucursales" Text="Sucursales" BackgroundColor="#B0BEC4" TextColor="#fff"></Button>
+                    <Button x:Name="buttonTelefonos" Text="Teléfonos" BackgroundColor="#B0BEC4" TextColor="#fff"></Button>
+                </StackLayout>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
