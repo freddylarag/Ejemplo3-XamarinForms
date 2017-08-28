@@ -16,9 +16,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="#EBEEF0" Padding="20" >
-                    <Label Text="Usuario:" FontSize="Medium" TextColor="#354E61"></Label>
+                    <Label Text="Usuario:" TextColor="#354E61"></Label>
                     <Entry x:Name="entryUsuario"></Entry>
-                    <Label Text="Contraseña:" FontSize="Medium" TextColor="#354E61"></Label>
+                    <Label Text="Contraseña:" TextColor="#354E61"></Label>
                     <Entry x:Name="entryContraseña" IsPassword="True"></Entry>
                     <Button x:Name="buttonLogin" Text="Entrar" BackgroundColor="#CD3503" TextColor="#fff"></Button>
                 </StackLayout>
