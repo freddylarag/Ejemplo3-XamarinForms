@@ -10,7 +10,7 @@
             <StackLayout>
                 
                 <StackLayout BackgroundColor="#FF9800" Padding="20">
-                    <Image Source="gorilla_player.png" WidthRequest="150" HeightRequest="150"></Image>
+                    <Image Source="gorilla_player.png" WidthRequest="150" HeightRequest="150" HorizontalOptions="Center"></Image>
                     <Label Text="Ejercicio 3" TextColor="#fff" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontSize="Large"></Label>
                     <Label Text="Manejo de interfaz gráfica" TextColor="#fff" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontSize="Small"></Label>
                 </StackLayout>
